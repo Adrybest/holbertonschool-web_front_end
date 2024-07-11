@@ -7,7 +7,7 @@ html{
     --font-family-title: "Raleway", Helvetica Neue, Helvetica, Arial, sans-serif;
     --color-primary: #d73953;
     --color-black: #090909;
-    --color-white: #ffffff;
+    --color-white: #ffffff                ;
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
@@ -21,14 +21,14 @@ html{
     --line-height-small: 1.2;
     --line-height-base: 1.5;
     --line-height-big: 1.8;
-    --section-header-aling: center;
+    --section-header-align: center;
 }
 body{
     font-family: var(--font-family-base);
     color: var(--text-color);
     font-size: var(--font-size-medium);
-    font-weight: var(--font-weigh-regular);
-    line-height: var(--line-height-big);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-base);
 }
 h1, h2, h3, h4, h5, h6{
     font-family: var(--font-family-title);
@@ -42,11 +42,11 @@ a{
     display: none;
 }
 .card-category{
-    color: var(--color-primary)
+    color: var(--color-primary);
 }
 .section-header{
-    text-align: var(--section-header-aling);
+    text-align: var(--section-header-align);
 }
 .section-tagline{
-    color: var(--color-primary)
+    color: var(--color-primary);
 }
