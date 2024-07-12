@@ -169,7 +169,7 @@ ul.row{
     background-color: var(--color-black);
 }
 .footer-address{
-    color: (--text-color);
+    color: var(--text-color);
 }
 .social-link{
     display: block;
